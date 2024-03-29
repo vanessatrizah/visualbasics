@@ -1,5 +1,5 @@
 ﻿Public Class Form1
-    Dim cropsList As New List(Of String())
+    Dim cropsList As New List(Of String)
     Private Sub AddCrop_Click(sender As Object, e As EventArgs) Handles AddCrop.Click
         Dim cropName As String = InputBox("Enter Crop Name:", "Add Crop")
         Dim variety As String = InputBox("Enter Variety:", "Add Crop")
